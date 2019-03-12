@@ -19,11 +19,13 @@ group = 'com.github.tenbergen'
 
 repositories {
   jcenter()
+    maven {url 'https://jitpack.io'}
 }
 
 dependencies {
   compile 'org.reflections:reflections:0.9.11' //was 0.9.10
   compile 'javax.xml.bind:jaxb-api:2.3.0' //new:
+  compile 'com.github.tenbergen:anki-drive-java:ffd5686dc23ab9893d3e2a86a433732e5c1be086'
 }
 
 node {
